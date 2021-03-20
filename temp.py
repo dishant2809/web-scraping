@@ -26,7 +26,7 @@ for i in range(1,len(a)):
 
 drp = Select(drp)
 
-for i in range(1,len(reg)):
+for i in range(1,len(reg)+1):
     
     drp.select_by_index(i)
     
